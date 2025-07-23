@@ -1,0 +1,6 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;     /*for row*/
+    background-color: antiquewhite;
+    align-items: center;             /*for column*/
+}
