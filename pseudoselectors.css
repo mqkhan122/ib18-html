@@ -1,0 +1,33 @@
+html{
+    scroll-behavior: smooth;
+}
+#btn{
+    padding: 8px 12px;
+}
+#btn a{
+    text-decoration: none;
+    color: black;
+}
+#btn:hover{
+    background-color: yellow;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+}
+.head:hover{
+    color: blue;
+}
+input::placeholder{
+    color:red;
+}
+.name::after{
+    content: " Khan";
+    color: blue;
+}
+.name::before{
+    content:"Mr. ";
+    color: gray;
+}
+.navigate{
+    background-color: yellow;
+}
